@@ -1,29 +1,29 @@
 import React, { useState } from 'react';
 import './App.css';
-import Profile from './Assets/profile.jpg'
+import Profile from './Assets/profile.JPG'
 import { FaSearch } from "react-icons/fa";
 import { AiOutlineEye } from "react-icons/ai"
 import { FaBars } from "react-icons/fa";
 
 function App() {
-  const [query, setQuery] = useState('006153238');
+  const [query, setQuery] = useState('0080360251');
   const data = {
     registrationDate: '23/1/2016',
     profileImage: {Profile}, // Replace with the actual image URL
-    nameAmharic: 'ኢያሱ ታገሰ አርፍጮ',
-    nameEnglish: 'EYASU TAGESSE ARFICHO',
-        licenseNumber: 'CE/TMDB/1/0218125/2017',
-    idNumber: '006153238',
-    nameAmharic: 'EYASU TAGESSE ARFICHO',
-    nameEnglish: 'EYASU TAGESSE ARFICHO',
+    nameAmharic: 'ፀጋዬ ማቴዎስ ጎዴቦ',
+    nameEnglish: 'TSEGAYE MATHEWOS',
+        licenseNumber: 'CE/TMDB/15/445411100/12904644/2017',
+    idNumber: '0080360251',
+    nameAmharic: 'ፀጋዬ ማቴዎስ ጎዴቦ',
+    nameEnglish: 'TSEGAYE MATHEWOS',
     sector: 'ግለሰብ ነጋዴ',
-    capital: '600,000.00',
-    registrationDate: '2/08/2017',
+    capital: '2000,000.00',
+    registrationDate: '2/5/2017',
     licenses: [
       {
-        name: 'ኢያሱ ታገሰ አርፍጮ',
-        sector: '62512)(62512)ኤሌክትሪክ መሳሪያዎችና ተዛማጅ ዕቃዎች ችርቻሮ ንግድ',
-        licenseNumber: 'CE/TMDB/1/0218125/2016',
+        name: 'ፀጋዬ ማቴዎስ ጎዴቦ',
+        sector: '(62411)(62411)የጨርቃ ጨርቅ ጭረቶች፣ ጨርቃጨርቅ፣ ጥጥ፣ ክርና አልባሳት ችርቻሮ ንግድ',
+        licenseNumber: 'CE/TMDB/15/445411100/12904644/2017',
       },
       // {
       //   name: 'አልማዝ አደባ አለኸኝ',
@@ -64,7 +64,7 @@ function App() {
        <FaSearch className="search-icon" /> 
       <input
         type="text"
-        placeholder="006153238"
+        placeholder="0080360251"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
@@ -122,7 +122,7 @@ function App() {
             <td>{license.name}</td>
             <td>{license.sector}</td>
             <td>{license.licenseNumber}</td>
-            <td>2/05/2016 - 2/05/2017</td>
+            <td>2/05/2017 - 2/05/2018</td>
             <td>
               {/* <button
                 className="view-icon-button"
