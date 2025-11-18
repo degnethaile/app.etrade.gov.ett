@@ -10,18 +10,18 @@ function App() {
   const data = {
     registrationDate: '23/1/2016',
     profileImage: {Profile}, // Replace with the actual image URL
-    nameAmharic: 'ፀጋዬ ማቴዎስ ጎዴቦ',
-    nameEnglish: 'TSEGAYE MATHEWOS',
+    nameAmharic: 'ኢያሱ ታገሰ አርፊጮ',
+    nameEnglish: 'EYASU TAGESSE',
         licenseNumber: 'CE/TMDB/15/445411100/12904644/2017',
     idNumber: '0080360251',
-    nameAmharic: 'ፀጋዬ ማቴዎስ ጎዴቦ',
-    nameEnglish: 'TSEGAYE MATHEWOS',
+    nameAmharic: 'አቶ ኢያሱ ታገሰ አርፊጮ',
+    nameEnglish: 'Mr. EYASU TAGESSE',
     sector: 'ግለሰብ ነጋዴ',
     capital: '2000,000.00',
     registrationDate: '2/5/2017',
     licenses: [
       {
-        name: 'ፀጋዬ ማቴዎስ ጎዴቦ',
+        name: 'ኢያሱ ታገሰ አርፊጮ',
         sector: '(62411)(62411)የጨርቃ ጨርቅ ጭረቶች፣ ጨርቃጨርቅ፣ ጥጥ፣ ክርና አልባሳት ችርቻሮ ንግድ',
         licenseNumber: 'CE/TMDB/15/445411100/12904644/2017',
       },
