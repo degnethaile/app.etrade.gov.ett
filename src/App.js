@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Profile from './Assets/profile.JPG'
+import Profile from './Assets/profile.jpg'
 import { FaSearch } from "react-icons/fa";
 import { AiOutlineEye } from "react-icons/ai"
 import { FaBars } from "react-icons/fa";
