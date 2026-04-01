@@ -10,25 +10,25 @@ function App() {
   const data = {
     registrationDate: '23/1/2016',
     profileImage: {Profile}, // Replace with the actual image URL
-    nameAmharic: 'ኢያሱ ታገሰ አርፊጮ',
-    nameEnglish: 'EYASU TAGESSE',
-        licenseNumber: 'CE/TMDB/15/445411100/12904644/2017',
+    nameAmharic: 'ብንያም ወርቁ ታቀበ',
+    nameEnglish: 'BINIYAM WORKU TEKEBA',
+        licenseNumber: 'CE/TMDB/15/445411100/12904644/2016',
     idNumber: '0080360251',
-    nameAmharic: 'አቶ ኢያሱ ታገሰ አርፊጮ',
-    nameEnglish: 'Mr. EYASU TAGESSE',
+    nameAmharic: 'አቶ ብንያም ወርቁ ታቀበ',
+    nameEnglish: 'Mr. BINIYAM WORKU TEKEBA',
     sector: 'ግለሰብ ነጋዴ',
     capital: '2000,000.00',
-    registrationDate: '2/5/2017',
+    registrationDate: '2/5/2016',
     licenses: [
       {
-        name: 'ኢያሱ ታገሰ አርፊጮ',
+        name: 'ብንያም ወርቁ ታቀበ',
         sector: '(62411)(62411)የጨርቃ ጨርቅ ጭረቶች፣ ጨርቃጨርቅ፣ ጥጥ፣ ክርና አልባሳት ችርቻሮ ንግድ',
-        licenseNumber: 'CE/TMDB/15/445411100/12904644/2017',
+        licenseNumber: 'CE/TMDB/15/445411100/12904644/2016',
       },
       // {
       //   name: 'አልማዝ አደባ አለኸኝ',
       //   sector: 'ማኅበራዊ ድርጅቶች',
-      //   licenseNumber: 'SNNPR/HA/HO/A/1/05/00152492532512/2014',
+      //   licenseNumber: 'SNNPR/HA/HO/A/1/05/00152492532512/2016',
       // },
     ],
   };
