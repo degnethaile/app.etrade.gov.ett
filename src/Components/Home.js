@@ -9,8 +9,7 @@ import Button from "@mui/material/Button";
 import { FiArrowRight } from "react-icons/fi";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import SearchIcon from "@mui/icons-material/Search";
-import person from "../Assets/pic.jpg";
-
+import person from "../Assets/profile.jpg";
 const Home = () => {
   const Search = styled("div")(({ theme }) => ({
     position: "relative",
